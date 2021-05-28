@@ -21,7 +21,8 @@ main {
   width: 216px;
   color: white; }
   .back a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white;}
   .back a:visited {
     color: white; }
 
