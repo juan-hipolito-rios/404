@@ -1,0 +1,115 @@
+* {
+  /*border: 1px solid black;*/
+  overflow: hidden; }
+
+header {
+  font-family: inconsolata;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333; }
+
+main {
+  font-family: monospace; }
+
+.back {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 68px;
+  width: 216px;
+  color: white; }
+  .back a {
+    text-decoration: none; }
+  .back a:visited {
+    color: white; }
+
+footer {
+  font-family: Montserrat;
+  color: #BDBDBD;
+  font-size: 14px; }
+  footer span {
+    font-weight: bold; }
+
+@media only screen and (max-width: 375px) {
+  header {
+    margin: 20px 24px; }
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    main img {
+      width: 286,83px;
+      height: 238px;
+      margin: 64px 44.17px 60px 44px; }
+    main h1 {
+      font-size: 48px;
+      color: #333333;
+      margin: 0 1px 30px 24px; }
+    main p {
+      font-size: 18px;
+      margin: 0 24px 66px 23px;
+      height: 68px; }
+  .back {
+    margin: 0 135px 114px 24px; }
+  footer {
+    text-align: center;
+    margin-bottom: 24px; } }
+
+@media only screen and (min-width: 376px) and (max-width: 1049px) {
+  header {
+    margin-top: 40px;
+    margin-left: 24px;
+    margin-bottom: 24px; }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px; }
+    main img {
+      width: 60%;
+      height: 60%; }
+    main h1 {
+      font-size: 48px;
+      width: 60%; }
+    main p {
+      font-size: 18px;
+      width: 60%; }
+  footer {
+    text-align: center;
+    margin-top: 100px; } }
+
+@media only screen and (min-width: 1050px) {
+  header {
+    margin: 40px 0px 100px 77px; }
+  main {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+    flex-wrap: nowrap;
+    margin-top: 100px; }
+    main img {
+      width: 539.22px;
+      height: 447.43px;
+      margin: 0 118px 0 77px; }
+    main h1 {
+      font-size: 64px;
+      width: 500px;
+      height: 190px;
+      line-height: 94.78px;
+      font-weight: 700; }
+    main p {
+      font-size: 24px;
+      width: 381px;
+      height: 108px;
+      line-height: 35.54px;
+      margin-bottom: 0px; }
+  .back {
+    margin-top: 64px;
+    margin-bottom: 0px; }
+  footer {
+    text-align: center;
+    position: absolute;
+    bottom: 24px;
+    left: 40%; } }
